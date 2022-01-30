@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7a73b3;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 680px;
+    margin: 5rem auto;
+    text-align: center;
+    color: #29244a;
+}
+
+.title {
+    font-size: 5rem;
+    margin: 0;
+    color: #342e63;
+}
+
+.title-shadow {
+    text-shadow: 2px 4px 0 #2da5a5;
+}
+
+.title-redbg {
+    background-color: red;
+}
+
+h3 {
+    word-break: break-all;
+}
+
+.h3 {
+    font-size: 1.17em;
+    margin: 2em 0 .75em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.25rem;
+    color: white;
+    color: #b3afcd;
+    color: #c4c1d5;
+}
+
+.button-group {
+    margin-top: 2rem;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: .5rem 1rem .375rem;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 0 .25rem;
+    background-color: #7371d5;
+    color: white;
+    box-shadow: 3px 4px 0 #4c4681;
+    transition: all .2s ease;
+}
+
+button:hover {
+    background-color: #2da5a5;
+    /* background-color: #8c8af1; */
+    box-shadow: 5px 6px 0 #3c366d;
+}
+
+button:active {
+    background-color: #1c7e7e;
+    box-shadow: 2px 3px 0 #2e2957;
+}
+
+input {
+    border: 4px;
+    padding: 0.75rem;
+    min-width: 250px;
+    border-radius: 8px;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+    border-style: ridge;
+    border-color: #71b1b1;
+}
